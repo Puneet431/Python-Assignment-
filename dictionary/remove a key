@@ -1,0 +1,5 @@
+a={1:10,2:20,3:30}
+keys=[3]
+for k in keys:
+    a.pop(k)
+print(a)
